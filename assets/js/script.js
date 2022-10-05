@@ -6,7 +6,7 @@ function addImage() {
 
   let actualImage = document.createElement("img");
   actualImage.src =
-    "https://www.asiaticafilmmediale.it/wp-content/uploads/2022/07/La-scena-Soldier-BoyHomelander-del-finale-della-terza-stagione-di.jpg";
+    "https://i.kym-cdn.com/photos/images/newsfeed/002/413/242/66f.gif";
   actualImage.classList.add("col");
   //actualImage.classList.add("col-md-6");
   newImage.appendChild(actualImage);

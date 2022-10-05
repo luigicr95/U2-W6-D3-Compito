@@ -1,13 +1,51 @@
-body {
-  background-color: orangered;
+.navbar {
+  background-color: darkblue;
 }
 
-p {
-  color: grey;
+a img {
+  width: 50px;
 }
 
-h1 {
-  color: grey;
+.row img {
+  animation-name: FadeIn;
+  animation-duration: 1.2s;
 }
 
-/*# sourceMappingURL=styles.css.map */
+div button {
+  animation-name: ButtonScale;
+  animation-duration: 0.8s;
+}
+
+.background-body-image {
+  background-image: url(https://i0.wp.com/www.npcmagazine.it/wp-content/uploads/2022/06/IMMAGINE-IN-EVIDENZA-ARTICOLI-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes ButtonScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20vw);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

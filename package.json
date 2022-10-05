@@ -1,0 +1,24 @@
+{
+  "name": "u2-w6-d3-compito",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass --no-source-map assets/scss/styles.scss assets/css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luigicr95/U2-W6-D3-Compito.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luigicr95/U2-W6-D3-Compito/issues"
+  },
+  "homepage": "https://github.com/luigicr95/U2-W6-D3-Compito#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "sass": "^1.55.0"
+  }
+}

@@ -2,6 +2,10 @@
   background-image: linear-gradient(to right, #1f1c2c, #928dab);
 }
 
+body {
+  background-image: linear-gradient(to right, #1f1c2c, #928dab);
+}
+
 a img {
   width: 50px;
 }
@@ -20,6 +24,7 @@ div button {
   background-image: url(https://i0.wp.com/www.npcmagazine.it/wp-content/uploads/2022/06/IMMAGINE-IN-EVIDENZA-ARTICOLI-6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 @keyframes ButtonScale {
